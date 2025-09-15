@@ -12,29 +12,29 @@
 
   <screenshots>
     <screenshot type="default">
-      <image>https://raw.githubusercontent.com/elementary/switchboard-plug-security-privacy/8.0.0/data/screenshot-history.png</image>
+      <image>https://raw.githubusercontent.com/elementary/settings-security-privacy/8.0.0/data/screenshot-history.png</image>
     </screenshot>
     <screenshot>
-      <image>https://raw.githubusercontent.com/elementary/switchboard-plug-security-privacy/8.0.0/data/screenshot-locking.png</image>
+      <image>https://raw.githubusercontent.com/elementary/settings-security-privacy/8.0.0/data/screenshot-locking.png</image>
     </screenshot>
     <screenshot>
-      <image>https://raw.githubusercontent.com/elementary/switchboard-plug-security-privacy/8.0.0/data/screenshot-firewall.png</image>
+      <image>https://raw.githubusercontent.com/elementary/settings-security-privacy/8.0.0/data/screenshot-firewall.png</image>
     </screenshot>
     <screenshot>
-      <image>https://raw.githubusercontent.com/elementary/switchboard-plug-security-privacy/8.0.0/data/screenshot-housekeeping.png</image>
+      <image>https://raw.githubusercontent.com/elementary/settings-security-privacy/8.0.0/data/screenshot-housekeeping.png</image>
     </screenshot>
     <screenshot>
-      <image>https://raw.githubusercontent.com/elementary/switchboard-plug-security-privacy/8.0.0/data/screenshot-location.png</image>
+      <image>https://raw.githubusercontent.com/elementary/settings-security-privacy/8.0.0/data/screenshot-location.png</image>
     </screenshot>
   </screenshots>
 
   <content_rating type="oars-1.1" />
 
   <url type="homepage">https://elementary.io/</url>
-  <url type="bugtracker">https://github.com/elementary/switchboard-plug-security-privacy/issues</url>
+  <url type="bugtracker">https://github.com/elementary/settings-security-privacy/issues</url>
   <url type="donation">https://elementary.io/get-involved#funding</url>
-  <url type="help">https://github.com/elementary/switchboard-plug-security-privacy/discussions</url>
-  <url type="translate">https://l10n.elementary.io/engage/switchboard/</url>
+  <url type="help">https://github.com/elementary/settings-security-privacy/discussions</url>
+  <url type="translate">https://l10n.elementary.io/engage/settings/</url>
 
   <developer id="org.elementaryos">
     <name>elementary, Inc.</name>
