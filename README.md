@@ -1,5 +1,5 @@
 # Security & Privacy Settings
-[![Translation status](https://l10n.elementary.io/widgets/switchboard/-/switchboard-plug-security-privacy/svg-badge.svg)](https://l10n.elementary.io/engage/switchboard/?utm_source=widget)
+[![Translation status](https://l10n.elementaryos.org/widget/settings/security-privacy/svg-badge.svg)](https://l10n.elementaryos.org/engage/settings/)
 
 ![screenshot](data/screenshot-history.png?raw=true)
 
