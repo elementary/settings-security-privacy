@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-02 18:50+0000\n"
-"PO-Revision-Date: 2024-08-07 18:16+0000\n"
-"Last-Translator: anonymous <noreply@weblate.org>\n"
-"Language-Team: Swedish <https://l10n.elementary.io/projects/switchboard/"
-"switchboard-plug-security-privacy/sv/>\n"
+"PO-Revision-Date: 2025-10-22 05:26+0000\n"
+"Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
+"Language-Team: Swedish <https://l10n.elementaryos.org/projects/settings/"
+"security-privacy/sv/>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.6.2\n"
+"X-Generator: Weblate 5.11.4\n"
 "X-Launchpad-Export-Date: 2017-03-01 06:17+0000\n"
 
 #: src/Plug.vala:23
@@ -71,10 +71,8 @@ msgid "Automatically delete old temporary files"
 msgstr "Radera automatiskt gamla temporära filer"
 
 #: src/Plug.vala:99
-#, fuzzy
-#| msgid "Automatically delete old trashed files"
 msgid "Automatically delete old screenshot files"
-msgstr "Radera automatiskt gamla filer från papperskorgen"
+msgstr "Ta automatiskt bort gamla skärmdumpfiler"
 
 #: src/Plug.vala:104
 msgid "Automatically delete old trashed files"
@@ -86,7 +84,7 @@ msgstr "Antal dagar som temporära filer och filer i papperskorgen ska behållas
 
 #: src/Views/FirewallPanel.vala:68
 msgid "Unlock"
-msgstr ""
+msgstr "Lås upp"
 
 #: src/Views/FirewallPanel.vala:230 src/Views/FirewallPanel.vala:246
 #: src/Views/FirewallPanel.vala:259 src/Views/FirewallPanel.vala:266
@@ -196,33 +194,28 @@ msgid "Disabled"
 msgstr "Inaktiverad"
 
 #: src/Views/HouseKeepingPanel.vala:36
-#, fuzzy
 msgid "Automatically Delete:"
-msgstr "Radera automatiskt gamla filer från papperskorgen:"
+msgstr "Ta bort automatiskt:"
 
 #: src/Views/HouseKeepingPanel.vala:48
-#, fuzzy
-#| msgid "Automatically delete old temporary files"
 msgid "Old temporary files"
-msgstr "Radera automatiskt gamla temporära filer"
+msgstr "Gamla temporära filer"
 
 #: src/Views/HouseKeepingPanel.vala:61
 msgid "Downloaded files"
-msgstr ""
+msgstr "Nedladdade filer"
 
 #: src/Views/HouseKeepingPanel.vala:69
 msgid "Screenshot files"
-msgstr ""
+msgstr "Filer för skärmdump"
 
 #: src/Views/HouseKeepingPanel.vala:88
 msgid "Trashed files"
-msgstr ""
+msgstr "Kastade filer"
 
 #: src/Views/HouseKeepingPanel.vala:91
-#, fuzzy
 msgid "Delete Old Files After:"
-msgstr ""
-"Antal dagar som temporära filer och filer i papperskorgen ska behållas:"
+msgstr "Ta bort gamla filer efter:"
 
 #: src/Views/HouseKeepingPanel.vala:118
 msgid "Open Trash…"
@@ -250,9 +243,8 @@ msgid "Partially Enabled"
 msgstr "Delvis aktiverat"
 
 #: src/Views/LockPanel.vala:31
-#, fuzzy
 msgid "Lock on suspend:"
-msgstr "Lås i viloläge:"
+msgstr "Lås på suspendera:"
 
 #: src/Views/LockPanel.vala:37
 msgid "Lock after screen turns off:"
@@ -260,7 +252,7 @@ msgstr "Lås när skärmen stängs av:"
 
 #: src/Views/LockPanel.vala:60
 msgid "Forbid new USB devices when locked:"
-msgstr ""
+msgstr "Förbjud nya USB-enheter när den är låst:"
 
 #: src/Views/TrackPanel.vala:29
 #, c-format
@@ -270,13 +262,15 @@ msgid ""
 "setting, usage data is never transmitted off of this device or to third "
 "parties."
 msgstr ""
+"%s kan lagra lokala användningsdata för att tillhandahålla extra "
+"funktionalitet som att erbjuda nyligen använda filer och mer relevant lokal "
+"sökning. Oavsett denna inställning överförs aldrig användningsdata från den "
+"här enheten eller till tredje part."
 
 #: src/Views/TrackPanel.vala:41
-#, fuzzy, c-format
+#, c-format
 msgid "%s won't retain any further usage data."
-msgstr ""
-"%s kommer inte behålla någon ytterligare data eller statistik om fil- och "
-"programanvändning."
+msgstr "%s kommer inte att lagra några ytterligare användningsdata."
 
 #: src/Views/TrackPanel.vala:42
 msgid "The additional functionality that this data provides will be affected."
@@ -285,13 +279,12 @@ msgstr ""
 "påverkas."
 
 #: src/Views/TrackPanel.vala:43
-#, fuzzy
 msgid ""
 "This may not prevent apps from recording their own usage data, such as "
 "browser history."
 msgstr ""
-"Detta förhindrar inte program från att samla in användningsdata på egen "
-"hand, såsom webbläsarhistorik."
+"Detta kanske inte hindrar appar från att registrera sina egna "
+"användningsdata, t.ex. webbläsarhistorik."
 
 #: src/Views/TrackPanel.vala:46
 msgid "History Is Disabled"
@@ -359,18 +352,15 @@ msgid "Search Application"
 msgstr "Sök efter program"
 
 #: src/Widgets/ClearUsageDialog.vala:24
-#, fuzzy
-#| msgid "Remove system-collected file and application usage data from:"
 msgid "Clear system-collected file and app usage history"
-msgstr ""
-"Ta bort användningsdata som operativsystemet samlat in om filer och program "
-"sedan:"
+msgstr "Rensa systemets samlade historik för fil- och appanvändning"
 
 #: src/Widgets/ClearUsageDialog.vala:25
 msgid ""
 "The data from the selected time frame will be permanently deleted and cannot "
 "be restored"
 msgstr ""
+"Data från den valda tidsramen raderas permanent och kan inte återställas"
 
 #: src/Widgets/ClearUsageDialog.vala:32
 msgid "The past hour"
