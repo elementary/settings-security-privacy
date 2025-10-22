@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-02 18:50+0000\n"
-"PO-Revision-Date: 2025-10-22 05:26+0000\n"
+"PO-Revision-Date: 2025-10-22 09:59+0000\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
 "Language-Team: Swedish <https://l10n.elementaryos.org/projects/settings/"
 "security-privacy-plug-extra/sv/>\n"
@@ -21,11 +21,11 @@ msgstr ""
 
 #: data/security-privacy.policy.in.in:10
 msgid "Authentication is required to run the Firewall Configuration"
-msgstr ""
+msgstr "Autentisering krävs för att köra Brandväggskonfiguration"
 
 #: data/security-privacy.metainfo.xml.in:10
 msgid "Security &amp; Privacy Settings"
-msgstr ""
+msgstr "Inställningar för säkerhet och sekretess"
 
 #: data/security-privacy.metainfo.xml.in:11
 msgid "Configure firewall, screen lock, and activity information"
@@ -51,7 +51,7 @@ msgstr "Mindre uppdateringar:"
 #: data/security-privacy.metainfo.xml.in:97
 #: data/security-privacy.metainfo.xml.in:110
 msgid "Translation updates"
-msgstr ""
+msgstr "Uppdateringar av översättningar"
 
 #: data/security-privacy.metainfo.xml.in:59
 msgid "Improved screen reader accessibility"
@@ -65,20 +65,20 @@ msgstr "Nya funktioner:"
 
 #: data/security-privacy.metainfo.xml.in:69
 msgid "Automatically clean up screenshots with Housekeeping"
-msgstr ""
+msgstr "Städa upp skärmdumpar automatiskt med Housekeeping"
 
 #: data/security-privacy.metainfo.xml.in:73
 msgid "Only list installed apps in the Location panel"
-msgstr ""
+msgstr "Visa bara installerade appar i panelen Plats"
 
 #: data/security-privacy.metainfo.xml.in:83
 msgid "Use the location portal"
-msgstr ""
+msgstr "Använd platsportalen"
 
 #: data/security-privacy.metainfo.xml.in:87
 msgid "New location icon"
-msgstr ""
+msgstr "Ny ikon för plats"
 
 #: data/security-privacy.metainfo.xml.in:106
 msgid "Option to forbid new USB devices while locked"
-msgstr ""
+msgstr "Möjlighet att förbjuda nya USB-enheter under låsning"
