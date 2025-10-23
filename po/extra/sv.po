@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-02 18:50+0000\n"
-"PO-Revision-Date: 2025-10-22 09:59+0000\n"
+"PO-Revision-Date: 2025-10-24 05:55+0000\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
 "Language-Team: Swedish <https://l10n.elementaryos.org/projects/settings/"
 "security-privacy-plug-extra/sv/>\n"
@@ -25,7 +25,7 @@ msgstr "Autentisering krävs för att köra Brandväggskonfiguration"
 
 #: data/security-privacy.metainfo.xml.in:10
 msgid "Security &amp; Privacy Settings"
-msgstr "Inställningar för säkerhet och sekretess"
+msgstr "Inställningar för säkerhet och integritet"
 
 #: data/security-privacy.metainfo.xml.in:11
 msgid "Configure firewall, screen lock, and activity information"
