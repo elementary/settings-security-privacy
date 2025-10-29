@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-02 18:50+0000\n"
-"PO-Revision-Date: 2025-10-24 05:55+0000\n"
+"PO-Revision-Date: 2025-10-30 09:55+0000\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
 "Language-Team: Swedish <https://l10n.elementaryos.org/projects/settings/"
 "security-privacy-plug-extra/sv/>\n"
@@ -29,7 +29,7 @@ msgstr "Inställningar för säkerhet och integritet"
 
 #: data/security-privacy.metainfo.xml.in:11
 msgid "Configure firewall, screen lock, and activity information"
-msgstr "Ställ in brandvägg, låsskärm och aktivitetsdata"
+msgstr "Konfigurera brandvägg, skärmlås och aktivitetsdata"
 
 #: data/security-privacy.metainfo.xml.in:40
 msgid "elementary, Inc."
@@ -65,11 +65,11 @@ msgstr "Nya funktioner:"
 
 #: data/security-privacy.metainfo.xml.in:69
 msgid "Automatically clean up screenshots with Housekeeping"
-msgstr "Städa upp skärmdumpar automatiskt med Housekeeping"
+msgstr "Städa upp skärmdumpar automatiskt med Hushållning"
 
 #: data/security-privacy.metainfo.xml.in:73
 msgid "Only list installed apps in the Location panel"
-msgstr "Visa bara installerade appar i panelen Plats"
+msgstr "Visa endast installerade appar i panelen Plats"
 
 #: data/security-privacy.metainfo.xml.in:83
 msgid "Use the location portal"
