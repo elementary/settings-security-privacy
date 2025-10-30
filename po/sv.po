@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-02 18:50+0000\n"
-"PO-Revision-Date: 2025-10-30 09:55+0000\n"
+"PO-Revision-Date: 2025-10-31 10:55+0000\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
 "Language-Team: Swedish <https://l10n.elementaryos.org/projects/settings/"
 "security-privacy/sv/>\n"
@@ -89,7 +89,7 @@ msgstr "Lås upp"
 #: src/Views/FirewallPanel.vala:230 src/Views/FirewallPanel.vala:246
 #: src/Views/FirewallPanel.vala:259 src/Views/FirewallPanel.vala:266
 msgid "Unknown"
-msgstr "Okänd"
+msgstr "Okänt"
 
 #: src/Views/FirewallPanel.vala:233 src/Views/FirewallPanel.vala:383
 msgid "Allow"
