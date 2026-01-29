@@ -62,7 +62,7 @@ public class SecurityPrivacy.HouseKeepingPanel : Switchboard.SettingsPage {
         download_files_box.set_parent (download_files_check);
 
         var screenshot_files_grid = new Gtk.Box (HORIZONTAL, 0);
-        screenshot_files_grid.append (new Gtk.Image.from_icon_name ("folder-screenshots-icon") {
+        screenshot_files_grid.append (new Gtk.Image.from_icon_name ("folder-screenshots") {
             margin_end = 6,
             pixel_size = 24
         });
