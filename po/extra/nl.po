@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-02 18:50+0000\n"
+"POT-Creation-Date: 2026-02-23 22:24+0000\n"
 "PO-Revision-Date: 2026-01-01 15:55+0000\n"
 "Last-Translator: Bas Ernst <50556177+ErnstBas@users.noreply.github.com>\n"
 "Language-Team: Dutch <https://l10n.elementaryos.org/projects/settings/"
@@ -24,7 +24,9 @@ msgid "Authentication is required to run the Firewall Configuration"
 msgstr "Authenticatie is vereist om de firewall configuratie te starten"
 
 #: data/security-privacy.metainfo.xml.in:10
-msgid "Security &amp; Privacy Settings"
+#, fuzzy
+#| msgid "Security &amp; Privacy Settings"
+msgid "Security & Privacy Settings"
 msgstr "Beveiliging &amp; Privacy instellingen"
 
 #: data/security-privacy.metainfo.xml.in:11
@@ -36,50 +38,52 @@ msgid "elementary, Inc."
 msgstr "elementary, Inc."
 
 #: data/security-privacy.metainfo.xml.in:48
-#: data/security-privacy.metainfo.xml.in:57
-#: data/security-privacy.metainfo.xml.in:71
-#: data/security-privacy.metainfo.xml.in:85
-#: data/security-privacy.metainfo.xml.in:95
-#: data/security-privacy.metainfo.xml.in:108
+#: data/security-privacy.metainfo.xml.in:60
+#: data/security-privacy.metainfo.xml.in:69
+#: data/security-privacy.metainfo.xml.in:83
+#: data/security-privacy.metainfo.xml.in:97
+#: data/security-privacy.metainfo.xml.in:107
+#: data/security-privacy.metainfo.xml.in:120
 msgid "Minor updates:"
 msgstr "Kleine updates:"
 
 #: data/security-privacy.metainfo.xml.in:50
-#: data/security-privacy.metainfo.xml.in:60
-#: data/security-privacy.metainfo.xml.in:74
-#: data/security-privacy.metainfo.xml.in:88
-#: data/security-privacy.metainfo.xml.in:97
-#: data/security-privacy.metainfo.xml.in:110
+#: data/security-privacy.metainfo.xml.in:62
+#: data/security-privacy.metainfo.xml.in:72
+#: data/security-privacy.metainfo.xml.in:86
+#: data/security-privacy.metainfo.xml.in:100
+#: data/security-privacy.metainfo.xml.in:109
+#: data/security-privacy.metainfo.xml.in:122
 msgid "Translation updates"
 msgstr "Bijgewerkt vertalingen"
 
-#: data/security-privacy.metainfo.xml.in:59
+#: data/security-privacy.metainfo.xml.in:71
 msgid "Improved screen reader accessibility"
 msgstr "Verbeterde schermlezertoegankelijkheid"
 
-#: data/security-privacy.metainfo.xml.in:67
-#: data/security-privacy.metainfo.xml.in:81
-#: data/security-privacy.metainfo.xml.in:104
+#: data/security-privacy.metainfo.xml.in:79
+#: data/security-privacy.metainfo.xml.in:93
+#: data/security-privacy.metainfo.xml.in:116
 msgid "New features:"
 msgstr "Nieuwe functies:"
 
-#: data/security-privacy.metainfo.xml.in:69
+#: data/security-privacy.metainfo.xml.in:81
 msgid "Automatically clean up screenshots with Housekeeping"
 msgstr "Automatisch schermafbeeldingen opschonen met Housekeeping"
 
-#: data/security-privacy.metainfo.xml.in:73
+#: data/security-privacy.metainfo.xml.in:85
 msgid "Only list installed apps in the Location panel"
 msgstr "Alleen geïnstalleerde apps weergeven in het Locatiepaneel"
 
-#: data/security-privacy.metainfo.xml.in:83
+#: data/security-privacy.metainfo.xml.in:95
 msgid "Use the location portal"
 msgstr "Gebruik het locatieportaal"
 
-#: data/security-privacy.metainfo.xml.in:87
+#: data/security-privacy.metainfo.xml.in:99
 msgid "New location icon"
 msgstr "Nieuwe locatiepictogram"
 
-#: data/security-privacy.metainfo.xml.in:106
+#: data/security-privacy.metainfo.xml.in:118
 msgid "Option to forbid new USB devices while locked"
 msgstr "Optie om bij vergrendeling nieuwe USB-apparaten te verbieden"
 
