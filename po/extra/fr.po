@@ -8,24 +8,22 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-23 22:24+0000\n"
-"PO-Revision-Date: 2024-07-11 08:16+0000\n"
+"PO-Revision-Date: 2026-02-25 08:55+0000\n"
 "Last-Translator: Nathan <bonnemainsnathan@gmail.com>\n"
-"Language-Team: French <https://l10n.elementary.io/projects/switchboard/"
+"Language-Team: French <https://l10n.elementaryos.org/projects/settings/"
 "security-privacy-plug-extra/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.6.2\n"
+"X-Generator: Weblate 5.11.4\n"
 
 #: data/security-privacy.policy.in.in:10
 msgid "Authentication is required to run the Firewall Configuration"
 msgstr "Il est nécessaire de s'authentifier pour configurer le pare-feu"
 
 #: data/security-privacy.metainfo.xml.in:10
-#, fuzzy
-#| msgid "Security &amp; Privacy Settings"
 msgid "Security & Privacy Settings"
 msgstr "Paramètres de sécurité et de confidentialité"
 
