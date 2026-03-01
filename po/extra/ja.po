@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-23 22:24+0000\n"
-"PO-Revision-Date: 2025-08-30 22:55+0000\n"
+"PO-Revision-Date: 2026-03-02 11:55+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementaryos.org/projects/settings/"
 "security-privacy-plug-extra/ja/>\n"
@@ -24,8 +24,6 @@ msgid "Authentication is required to run the Firewall Configuration"
 msgstr "ファイアウォール設定を実行するには認証が必要です"
 
 #: data/security-privacy.metainfo.xml.in:10
-#, fuzzy
-#| msgid "Security &amp; Privacy Settings"
 msgid "Security & Privacy Settings"
 msgstr "セキュリティとプライバシー設定"
 
