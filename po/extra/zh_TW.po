@@ -8,24 +8,22 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-23 22:24+0000\n"
-"PO-Revision-Date: 2024-09-19 10:09+0000\n"
+"PO-Revision-Date: 2026-03-02 11:55+0000\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
-"Language-Team: Chinese (Traditional) <https://l10n.elementary.io/projects/"
-"switchboard/security-privacy-plug-extra/zh_Hant/>\n"
+"Language-Team: Chinese (Traditional Han script) <https://"
+"l10n.elementaryos.org/projects/settings/security-privacy-plug-extra/zh_TW/>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.6.2\n"
+"X-Generator: Weblate 5.11.4\n"
 
 #: data/security-privacy.policy.in.in:10
 msgid "Authentication is required to run the Firewall Configuration"
 msgstr "執行防火牆設定需要先通過身分核對"
 
 #: data/security-privacy.metainfo.xml.in:10
-#, fuzzy
-#| msgid "Security &amp; Privacy Settings"
 msgid "Security & Privacy Settings"
 msgstr "安全與隱私設定值"
 
