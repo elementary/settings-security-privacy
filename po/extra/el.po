@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-23 22:24+0000\n"
-"PO-Revision-Date: 2026-06-29 01:01+0000\n"
+"PO-Revision-Date: 2026-07-25 20:01+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: Greek <https://l10n.elementaryos.org/projects/settings/"
 "security-privacy-plug-extra/el/>\n"
@@ -54,7 +54,7 @@ msgstr "Μικρές ενημερώσεις:"
 #: data/security-privacy.metainfo.xml.in:109
 #: data/security-privacy.metainfo.xml.in:122
 msgid "Translation updates"
-msgstr ""
+msgstr "Ενημερώσεις μεταφράσεων"
 
 #: data/security-privacy.metainfo.xml.in:71
 msgid "Improved screen reader accessibility"
@@ -80,7 +80,7 @@ msgstr ""
 
 #: data/security-privacy.metainfo.xml.in:99
 msgid "New location icon"
-msgstr ""
+msgstr "Νέο εικονίδιο τοποθεσίας"
 
 #: data/security-privacy.metainfo.xml.in:118
 msgid "Option to forbid new USB devices while locked"
