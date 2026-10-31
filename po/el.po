@@ -7,27 +7,27 @@ msgid ""
 msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-02 18:50+0000\n"
-"PO-Revision-Date: 2024-08-07 18:16+0000\n"
-"Last-Translator: anonymous <noreply@weblate.org>\n"
-"Language-Team: Greek <https://l10n.elementary.io/projects/switchboard/"
-"switchboard-plug-security-privacy/el/>\n"
+"POT-Creation-Date: 2026-02-23 22:24+0000\n"
+"PO-Revision-Date: 2026-06-29 01:01+0000\n"
+"Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
+"Language-Team: Greek <https://l10n.elementaryos.org/projects/settings/"
+"security-privacy/el/>\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.6.2\n"
+"X-Generator: Weblate 2026.5\n"
 "X-Launchpad-Export-Date: 2017-03-01 06:17+0000\n"
 
 #: src/Plug.vala:23
 msgid "Security & Privacy"
-msgstr "Ασφάλεια & απόρρητο"
+msgstr "Ασφάλεια και απόρρητο"
 
 #: src/Plug.vala:24
 msgid "Configure firewall, screen lock, and activity information"
 msgstr ""
-"Ρύθμιση τείχους προστασίας, κλειδώματος οθόνης και δραστηριότητας πληροφοριών"
+"Ρύθμιση τείχους προστασίας, κλειδώματος οθόνης και πληροφοριών δραστηριότητας"
 
 #: src/Plug.vala:51
 msgid "Privacy"
@@ -45,50 +45,47 @@ msgstr "Τείχος προστασίας"
 #: src/Plug.vala:54 src/Plug.vala:90 src/Plug.vala:93 src/Plug.vala:98
 #: src/Plug.vala:103 src/Plug.vala:108 src/Views/HouseKeepingPanel.vala:31
 msgid "Housekeeping"
-msgstr ""
+msgstr "Τακτοποίηση"
 
 #: src/Plug.vala:55 src/Plug.vala:111 src/Views/LocationPanel.vala:35
 msgid "Location Services"
-msgstr ""
+msgstr "Υπηρεσίες τοποθεσίας"
 
 #: src/Plug.vala:84 src/Plug.vala:85 src/Views/TrackPanel.vala:31
 msgid "History"
-msgstr ""
+msgstr "Ιστορικό"
 
 #: src/Plug.vala:85 src/Widgets/ClearUsageDialog.vala:71
-#, fuzzy
 msgid "Clear History"
-msgstr "Εκκαθάριση δεδομένων"
+msgstr "Απαλοιφή ιστορικού"
 
 #: src/Plug.vala:87
-#, fuzzy
 msgid "Lock on sleep"
-msgstr "Κλείδωμα στον ύπνο:"
+msgstr "Κλείδωμα κατά την αναστολή λειτουργίας"
 
 #: src/Plug.vala:88
-#, fuzzy
 msgid "Lock after sceen turns off"
-msgstr "Κλείδωμα μετά την απενεργοποίηση της οθόνης:"
+msgstr "Κλείδωμα μετά την απενεργοποίηση της οθόνης"
 
 #: src/Plug.vala:94
 msgid "Automatically delete old temporary files"
-msgstr ""
+msgstr "Αυτόματη διαγραφή παλιών προσωρινών αρχείων"
 
 #: src/Plug.vala:99
 msgid "Automatically delete old screenshot files"
-msgstr ""
+msgstr "Αυτόματη διαγραφή παλιών στιγμιότυπων οθόνης"
 
 #: src/Plug.vala:104
 msgid "Automatically delete old trashed files"
-msgstr ""
+msgstr "Αυτόματη διαγραφή παλιών διαγραμμένων αρχείων"
 
 #: src/Plug.vala:109
 msgid "Number of days to keep trashed and temporary files"
-msgstr ""
+msgstr "Αριθμός ημερών διατήρησης διαγραμμένων και προσωρινών αρχείων"
 
 #: src/Views/FirewallPanel.vala:68
 msgid "Unlock"
-msgstr ""
+msgstr "Ξεκλείδωμα"
 
 #: src/Views/FirewallPanel.vala:230 src/Views/FirewallPanel.vala:246
 #: src/Views/FirewallPanel.vala:259 src/Views/FirewallPanel.vala:266
@@ -113,31 +110,31 @@ msgstr "Όριο"
 
 #: src/Views/FirewallPanel.vala:261 src/Views/FirewallPanel.vala:416
 msgid "In"
-msgstr "Μέσα"
+msgstr "Εισερχόμενα"
 
 #: src/Views/FirewallPanel.vala:263 src/Views/FirewallPanel.vala:417
 msgid "Out"
-msgstr "Έξω"
+msgstr "Εξερχόμενα"
 
 #: src/Views/FirewallPanel.vala:277 src/Views/FirewallPanel.vala:287
-#, fuzzy, c-format
+#, c-format
 msgid "%s Ports %s"
-msgstr "Θύρες"
+msgstr "%s Θύρες %s"
 
 #: src/Views/FirewallPanel.vala:279 src/Views/FirewallPanel.vala:289
-#, fuzzy, c-format
+#, c-format
 msgid "%s Port %s"
-msgstr "Θύρες"
+msgstr "%s Θύρα %s"
 
 #: src/Views/FirewallPanel.vala:321 src/Views/FirewallPanel.vala:543
 #: src/Views/HouseKeepingPanel.vala:165 src/Views/TrackPanel.vala:110
 #: src/Views/LocationPanel.vala:118
 msgid "Enabled"
-msgstr "Ενεργοποιημένος"
+msgstr "Ενεργοποιημένο"
 
 #: src/Views/FirewallPanel.vala:322
 msgid "Version"
-msgstr ""
+msgstr "Έκδοση"
 
 #: src/Views/FirewallPanel.vala:323
 msgid "Action"
@@ -152,14 +149,12 @@ msgid "Direction"
 msgstr "Κατεύθυνση"
 
 #: src/Views/FirewallPanel.vala:326
-#, fuzzy
 msgid "To"
-msgstr "Προς:"
+msgstr "Προς"
 
 #: src/Views/FirewallPanel.vala:327
-#, fuzzy
 msgid "From"
-msgstr "Από:"
+msgstr "Από"
 
 #: src/Views/FirewallPanel.vala:389
 msgid "Action:"
@@ -171,11 +166,11 @@ msgstr "Πρωτόκολλο:"
 
 #: src/Views/FirewallPanel.vala:407
 msgid "Both"
-msgstr ""
+msgstr "Και τα δύο"
 
 #: src/Views/FirewallPanel.vala:410
 msgid "Version:"
-msgstr ""
+msgstr "Έκδοση:"
 
 #: src/Views/FirewallPanel.vala:420
 msgid "Direction:"
@@ -201,31 +196,31 @@ msgstr "Απενεργοποιημένο"
 
 #: src/Views/HouseKeepingPanel.vala:36
 msgid "Automatically Delete:"
-msgstr ""
+msgstr "Αυτόματη διαγραφή:"
 
 #: src/Views/HouseKeepingPanel.vala:48
 msgid "Old temporary files"
-msgstr ""
+msgstr "Παλιών προσωρινών αρχείων"
 
 #: src/Views/HouseKeepingPanel.vala:61
 msgid "Downloaded files"
-msgstr ""
+msgstr "Αρχείων λήψης"
 
 #: src/Views/HouseKeepingPanel.vala:69
 msgid "Screenshot files"
-msgstr ""
+msgstr "Στιγμιότυπων οθόνης"
 
 #: src/Views/HouseKeepingPanel.vala:88
 msgid "Trashed files"
-msgstr ""
+msgstr "Διαγραμμένων αρχείων"
 
 #: src/Views/HouseKeepingPanel.vala:91
 msgid "Delete Old Files After:"
-msgstr ""
+msgstr "Διαγραφή παλιών αρχείων μετά από:"
 
 #: src/Views/HouseKeepingPanel.vala:118
 msgid "Open Trash…"
-msgstr ""
+msgstr "Άνοιγμα απορριμμάτων…"
 
 #: src/Views/HouseKeepingPanel.vala:147
 #, c-format
@@ -236,22 +231,25 @@ msgid_plural ""
 "Old files can be automatically deleted after %u days to save space and help "
 "protect your privacy."
 msgstr[0] ""
+"Μπορείτε να ρυθμίσετε την αυτόματη διαγραφή παλιών αρχείων μετά από %u ημέρα "
+"για εξοικονόμηση χώρου και προστασία του απορρήτου σας."
 msgstr[1] ""
+"Μπορείτε να ρυθμίσετε την αυτόματη διαγραφή παλιών αρχείων μετά από %u "
+"ημέρες για εξοικονόμηση χώρου και προστασία του απορρήτου σας."
 
 #: src/Views/HouseKeepingPanel.vala:153
 msgid "Day"
 msgid_plural "Days"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Ημέρα"
+msgstr[1] "Ημέρες"
 
 #: src/Views/HouseKeepingPanel.vala:168
 msgid "Partially Enabled"
-msgstr ""
+msgstr "Μερικώς ενεργοποιημένο"
 
 #: src/Views/LockPanel.vala:31
-#, fuzzy
 msgid "Lock on suspend:"
-msgstr "Κλείδωμα στον ύπνο:"
+msgstr "Κλείδωμα κατά την αναστολή λειτουργίας:"
 
 #: src/Views/LockPanel.vala:37
 msgid "Lock after screen turns off:"
@@ -259,7 +257,7 @@ msgstr "Κλείδωμα μετά την απενεργοποίηση της ο�
 
 #: src/Views/LockPanel.vala:60
 msgid "Forbid new USB devices when locked:"
-msgstr ""
+msgstr "Αποκλεισμός νέων συσκευών USB κατά το κλείδωμα:"
 
 #: src/Views/TrackPanel.vala:29
 #, c-format
@@ -269,33 +267,36 @@ msgid ""
 "setting, usage data is never transmitted off of this device or to third "
 "parties."
 msgstr ""
+"Το %s μπορεί να αποθηκεύει δεδομένα τοπικής χρήσης, ώστε να παρέχει επιπλέον "
+"λειτουργικότητα, όπως εμφάνιση πρόσφατων αρχείων και πιο σχετικών "
+"αποτελεσμάτων τοπικής αναζήτησης. Ανεξάρτητα από αυτήν τη ρύθμιση, τα "
+"δεδομένα χρήσης δεν μεταφέρονται ποτέ εκτός της συσκευής ή σε τρίτα μέρη."
 
 #: src/Views/TrackPanel.vala:41
 #, c-format
 msgid "%s won't retain any further usage data."
-msgstr ""
+msgstr "Το %s δεν θα διατηρεί περαιτέρω δεδομένα χρήσης."
 
 #: src/Views/TrackPanel.vala:42
 msgid "The additional functionality that this data provides will be affected."
 msgstr ""
-"Η επιπρόσθετη λειτουργικότητα που παρέχουν αυτά τα δεδομένα θα επηρεαστεί."
+"Θα επηρεαστεί η επιπρόσθετη λειτουργικότητα που παρέχουν αυτά τα δεδομένα."
 
 #: src/Views/TrackPanel.vala:43
-#, fuzzy
 msgid ""
 "This may not prevent apps from recording their own usage data, such as "
 "browser history."
 msgstr ""
-"Αυτό δε θα αποτρέψει εφαρμογές από την καταγραφή δικών τους δεδομένων χρήσης "
-"όπως το ιστορικό περιήγησης."
+"Αυτό δεν θα αποτρέπει τις εφαρμογές από την καταγραφή δικών τους δεδομένων "
+"χρήσης, όπως το ιστορικό περιήγησης."
 
 #: src/Views/TrackPanel.vala:46
 msgid "History Is Disabled"
-msgstr ""
+msgstr "Το ιστορικό είναι απενεργοποιημένο"
 
 #: src/Views/TrackPanel.vala:66
 msgid "Clear History…"
-msgstr ""
+msgstr "Απαλοιφή ιστορικού…"
 
 #: src/Views/TrackPanel.vala:104
 msgid "Your system"
@@ -304,60 +305,68 @@ msgstr "Το σύστημά σας"
 #: src/Views/LocationPanel.vala:33
 msgid "Allow the apps below to determine your location"
 msgstr ""
+"Να επιτρέπεται στις παρακάτω εφαρμογές να προσδιορίζουν την τοποθεσία σας"
 
 #: src/Views/LocationPanel.vala:42
 msgid "No Apps Are Using Location Services"
-msgstr ""
+msgstr "Καμία εφαρμογή δεν χρησιμοποιεί τις υπηρεσίες τοποθεσίας"
 
 #: src/Views/LocationPanel.vala:43
 msgid ""
 "When apps are installed that use location services they will automatically "
 "appear here."
 msgstr ""
+"Όταν οι εγκατεστημένες εφαρμογές χρησιμοποιούν τις υπηρεσίες τοποθεσίας, θα "
+"εμφανίζονται αυτόματα εδώ."
 
 #: src/Views/LocationPanel.vala:59
 msgid "Location Services Are Disabled"
-msgstr ""
+msgstr "Οι υπηρεσίες τοποθεσίας είναι απενεργοποιημένες"
 
 #: src/Views/LocationPanel.vala:61
 msgid ""
 "While location services are disabled, location requests from apps will be "
 "automatically rejected."
 msgstr ""
+"Όταν οι υπηρεσίες τοποθεσίας είναι απενεργοποιημένες, θα απορρίπτονται "
+"αυτόματα τα αιτήματα των εφαρμογών για πρόσβαση στην τοποθεσία."
 
 #: src/Views/LocationPanel.vala:62
 msgid ""
 "The additional functionality that location access provides in those apps "
 "will be affected."
 msgstr ""
+"Θα επηρεαστεί η επιπρόσθετη λειτουργικότητα που παρέχει η πρόσβαση αυτών των "
+"εφαρμογών στην τοποθεσία."
 
 #: src/Views/LocationPanel.vala:63
 msgid ""
 "This will not prevent apps from trying to determine your location based on "
 "IP address."
 msgstr ""
+"Αυτό δεν θα αποτρέπει τις εφαρμογές από την προσπάθεια προσδιορισμού της "
+"τοποθεσίας σας βάσει της διεύθυνσης IP."
 
 #: src/Views/LocationPanel.vala:200
 #, c-format
 msgid "Allow %s to use location services"
-msgstr ""
+msgstr "Να επιτρέπεται στο «%s» η χρήση των υπηρεσιών τοποθεσίας"
 
 #: src/Widgets/AppChooser.vala:32
 msgid "Search Application"
 msgstr "Αναζήτηση εφαρμογής"
 
 #: src/Widgets/ClearUsageDialog.vala:24
-#, fuzzy
-#| msgid "Remove system-collected file and application usage data from:"
 msgid "Clear system-collected file and app usage history"
-msgstr ""
-"Αφαίρεση συλλεγμένων αρχείων συστήματος και δεδομένων χρήσης εφαρμογών από:"
+msgstr "Απαλοιφή ιστορικού χρήσης αρχείων και εφαρμογών"
 
 #: src/Widgets/ClearUsageDialog.vala:25
 msgid ""
 "The data from the selected time frame will be permanently deleted and cannot "
 "be restored"
 msgstr ""
+"Τα δεδομένα από το επιλεγμένο χρονικό διάστημα θα διαγραφούν οριστικά και "
+"δεν είναι δυνατή η ανάκτησή τους"
 
 #: src/Widgets/ClearUsageDialog.vala:32
 msgid "The past hour"
@@ -365,7 +374,7 @@ msgstr "Την περασμένη ώρα"
 
 #: src/Widgets/ClearUsageDialog.vala:36
 msgid "The past day"
-msgstr "Την περασμένη μέρα"
+msgstr "Την περασμένη ημέρα"
 
 #: src/Widgets/ClearUsageDialog.vala:40
 msgid "The past week"
@@ -377,23 +386,23 @@ msgstr "Από:"
 
 #: src/Widgets/ClearUsageDialog.vala:48
 msgid "All time"
-msgstr "Συνεχώς"
+msgstr "Όλα"
 
 #: src/Widgets/ClearUsageDialog.vala:53
 msgid "To:"
-msgstr "Προς:"
+msgstr "Έως:"
 
 #: src/Widgets/ExcludeTreeView.vala:68
 msgid "Add Application…"
-msgstr "Προσθήκη εφαρμογής..."
+msgstr "Προσθήκη εφαρμογής…"
 
 #: src/Widgets/ExcludeTreeView.vala:72
 msgid "Add Folder…"
-msgstr "Προσθήκη φακέλου..."
+msgstr "Προσθήκη φακέλου…"
 
 #: src/Widgets/ExcludeTreeView.vala:75
 msgid "Select a folder to blacklist"
-msgstr "Επιλέξτε φάκελο για τοποθέτηση στη μαύρη λίστα"
+msgstr "Επιλέξτε φάκελο για προσθήκη στη λίστα αποκλεισμού"
 
 #: src/Widgets/ExcludeTreeView.vala:76
 msgid "Add"
@@ -405,7 +414,7 @@ msgstr "Διαγραφή"
 
 #: src/Widgets/ExcludeTreeView.vala:137
 msgid "Do not collect data from the following:"
-msgstr "Να μη γίνει συλλογή δεδομένων από τα ακόλουθα:"
+msgstr "Να μην γίνεται συλλογή δεδομένων από τα εξής:"
 
 #: src/Widgets/IncludeTreeView.vala:85
 msgid "Data Sources:"
@@ -413,7 +422,7 @@ msgstr "Πηγές δεδομένων:"
 
 #: src/Widgets/IncludeTreeView.vala:91
 msgid "Chat Logs"
-msgstr "Αρχεία καταγραφών συνομιλιών"
+msgstr "Αρχεία καταγραφής συνομιλιών"
 
 #: src/Widgets/IncludeTreeView.vala:92
 msgid "Documents"

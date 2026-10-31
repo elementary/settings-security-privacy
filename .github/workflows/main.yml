@@ -19,11 +19,11 @@ jobs:
       image: ghcr.io/elementary/docker:${{ matrix.version }}
 
     steps:
-    - uses: actions/checkout@v6
+    - uses: actions/checkout@v7
     - name: Install Dependencies
       run: |
         apt update
-        apt install -y libgranite-7-dev libpolkit-gobject-1-dev libswitchboard-3-dev libzeitgeist-2.0-dev meson policykit-1 valac
+        apt install -y libgranite-7-dev libpolkit-gobject-1-dev libswitchboard-3-dev libzeitgeist-2.0-dev meson valac
     - name: Build
       env:
         DESTDIR: out
@@ -40,6 +40,6 @@ jobs:
       image: valalang/lint
 
     steps:
-    - uses: actions/checkout@v6
+    - uses: actions/checkout@v7
     - name: Lint
       run: io.elementary.vala-lint -d .
