@@ -1,0 +1,6 @@
+option(
+    'zeitgeist',
+    type: 'feature',
+    value: 'auto',
+    description: 'Enable Zeitgeist support'
+)

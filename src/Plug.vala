@@ -10,7 +10,9 @@ public class SecurityPrivacy.Plug : Switchboard.Plug {
 
     private const string FIREWALL = "firewall";
     private const string HOUSEKEEPING = "housekeeping";
+#if HAVE_ZEITGEIST
     private const string HISTORY = "tracking";
+#endif
     private const string LOCKING = "locking";
     private const string LOCATION = "location";
 
@@ -25,7 +27,9 @@ public class SecurityPrivacy.Plug : Switchboard.Plug {
                 icon: "preferences-system-privacy",
                 supported_settings: new Gee.TreeMap<string, string?> (null, null));
 
+#if HAVE_ZEITGEIST
         supported_settings.set ("privacy", HISTORY);
+#endif
         supported_settings.set ("privacy/location", LOCATION);
         supported_settings.set ("privacy/trash", HOUSEKEEPING);
         supported_settings.set ("security/firewall", FIREWALL);
@@ -34,21 +38,27 @@ public class SecurityPrivacy.Plug : Switchboard.Plug {
 
         // DEPRECATED
         supported_settings.set ("security/housekeeping", HOUSEKEEPING);
+#if HAVE_ZEITGEIST
         supported_settings.set ("security/privacy", HISTORY);
+#endif
         supported_settings.set ("security/privacy/location", LOCATION);
         supported_settings.set ("security/screensaver", LOCKING);
     }
 
     public override Gtk.Widget get_widget () {
         if (paned == null) {
+#if HAVE_ZEITGEIST
             var tracking = new TrackPanel ();
+#endif
             var locking = new LockPanel ();
             var firewall = new FirewallPanel ();
             var housekeeping = new HouseKeepingPanel ();
             var location = new LocationPanel ();
 
             stack = new Gtk.Stack ();
+#if HAVE_ZEITGEIST
             stack.add_titled (tracking, HISTORY, _("Privacy"));
+#endif
             stack.add_titled (locking, LOCKING, _("Locking"));
             stack.add_titled (firewall, FIREWALL, _("Firewall"));
             stack.add_titled (housekeeping, HOUSEKEEPING, _("Housekeeping"));
@@ -81,11 +91,13 @@ public class SecurityPrivacy.Plug : Switchboard.Plug {
     // 'search' returns results like ("Keyboard → Behavior → Duration", "keyboard<sep>behavior")
     public override async Gee.TreeMap<string, string> search (string search) {
         var map = new Gee.TreeMap<string, string> (null, null);
+#if HAVE_ZEITGEIST
         map.set ("%s → %s".printf (display_name, _("History")), HISTORY);
         map.set ("%s → %s → %s".printf (display_name, _("History"), _("Clear History")), HISTORY);
+#endif
         map.set ("%s → %s".printf (display_name, _("Locking")), LOCKING);
-        map.set ("%s → %s → %s".printf (display_name, _("Locking"), _("Lock on sleep")), HISTORY);
-        map.set ("%s → %s → %s".printf (display_name, _("Locking"), _("Lock after sceen turns off")), HISTORY);
+        map.set ("%s → %s → %s".printf (display_name, _("Locking"), _("Lock on sleep")), LOCKING);
+        map.set ("%s → %s → %s".printf (display_name, _("Locking"), _("Lock after sceen turns off")), LOCKING);
         map.set ("%s → %s".printf (display_name, _("Firewall")), FIREWALL);
         map.set ("%s → %s".printf (display_name, _("Housekeeping")), HOUSEKEEPING);
         map.set ("%s → %s → %s".printf (
