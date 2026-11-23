@@ -19,6 +19,15 @@ switchboard_dep = dependency('switchboard-3')
 switchboard_plugsdir = switchboard_dep.get_variable('plugsdir', pkgconfig_define: ['libdir', libdir])
 pkgdatadir = switchboard_plugsdir / 'personal'
 
+zeitgeist_dep = dependency(
+    'zeitgeist-2.0',
+    required: get_option('zeitgeist')
+)
+
+if zeitgeist_dep.found()
+    add_project_arguments('--define=HAVE_ZEITGEIST', language: 'vala')
+endif
+
 polkit_dep = dependency('polkit-gobject-1')
 polkit_actiondir = polkit_dep.get_variable('actiondir', pkgconfig_define: ['prefix', prefix])
 
